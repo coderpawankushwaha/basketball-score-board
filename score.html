@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basketball score counter app</title>
+        <link rel="stylesheet" href="scorestyle.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <style>@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');</style>
+    </head>
+    <body>
+        <h1 class="head"> BASKETBALL SCORE BOARD</h1>
+        <div class="container">
+            <div>
+                <h1 class="name">HOME</h1>
+                <h1 id="board1">0</h1>
+                <button onclick="homeincrement1()">+1</button>
+                <button onclick="homeincrement2()">+2</button>
+                <button onclick="homeincrement3()">+3</button>
+            </div>
+            <div>
+                <h1 class="name">GUEST</h1>
+                <h1 id="board2">0</h1>
+                <button onclick="guestincrement1()">+1</button>
+                <button onclick="guestincrement2()">+2</button>
+                <button onclick="guestincrement3()">+3</button>
+            </div>
+        </div>
+        <script src="scoremove.js"></script>
+    </body>
+</html>
